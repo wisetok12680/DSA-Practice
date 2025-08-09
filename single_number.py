@@ -4,3 +4,5 @@ class Solution(object):
         for num in nums:
             result^=num
         return result
+
+#using XOR operation to find the single number
