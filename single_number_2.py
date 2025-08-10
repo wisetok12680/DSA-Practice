@@ -6,3 +6,4 @@ class Solution(object):
             ones = (ones ^ num) & ~twos
             twos = (twos ^ num) & ~ones
         return ones
+# This code uses bit manipulation to find the unique number in an array where every other number appears three times.
